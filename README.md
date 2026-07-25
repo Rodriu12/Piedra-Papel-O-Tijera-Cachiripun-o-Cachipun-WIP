@@ -1,7 +1,7 @@
 # Piedra-Papel-O-Tijera-Cachiripun-o-Cachipun-WIP
 Cachiripun o Cachipun de un jugador o multijugador en red local(LAN) o remota con interfaz gráfica en Python.
 
-## Cachipun Online
+## Cachipun Online y Offline
 Juego de piedra, papel o tijera (cachipún) en red, con modo servidor/cliente.
 Desarrollado con Python + Tkinter y comunicación mediante sockets TCP.
 Pensado para jugar con amigos en LAN o a través de Internet (con reenvío de puertos o túneles).
