@@ -94,7 +94,7 @@ def recibir_datos():
             eleccion = int(data)
             eleccion_oponente = eleccion
             if mi_eleccion == 0:
-                ventana.after(0, lambda: status_label.config(text="El oponente ha elegido. Espera tu turno."))
+                ventana.after(0, lambda: status_label.config(text="El oponente ha elegido. Elige tu opcion."))
             ventana.after(0, verificar_ambos_elegidos)
         except:
             break
