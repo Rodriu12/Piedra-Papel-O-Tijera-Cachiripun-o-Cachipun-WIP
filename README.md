@@ -41,23 +41,23 @@ Descarga los archivos CachipunGameSinglePlayer.exe y CachipunGameMultiplayer.exe
 Si quieres ejecutar el juego desde el código .py o contribuir al proyecto:
 
 **1. Clona el repositorio:**
-``bash
-git clone https://github.com/tu-usuario/cachipun-online.git
+```bash 
+git clone https://github.com/tu-usuario/cachipun-online.git 
 cd cachipun-online
-
+```
 **2. Instala Python 3.8+ (si no lo tienes) desde [python.org].**
 
 **3. Ejecuta el juego:**
-``bash
+```bash
 python CachipunOnline.py
-
+```
 **(NOTA: Asegúrate de que la carpeta resources/ esté en el mismo directorio que el .py, y que contenga las imágenes necesarias)**.
 
 **4. (Opcional) Crear un ejecutable propio con PyInstaller:**
-``bash
+```bash
 pip install pyinstaller
 pyinstaller --onefile --windowed --name"[El nombre que tu quieras ponerle]" CachipunOnline.py
-
+```
 Assets requeridos
 El juego utiliza imágenes en formato PNG dentro de la carpeta resources/. Si clonas el repositorio, las imágenes ya están incluidas.
 Si las creas tú mismo, deben tener estos nombres (tamaño recomendado: 300×300 píxeles):
