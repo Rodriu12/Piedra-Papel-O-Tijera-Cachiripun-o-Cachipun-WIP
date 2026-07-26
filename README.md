@@ -37,7 +37,7 @@ Descarga los archivos CachipunGameSinglePlayer.exe y CachipunGameMultiplayer.exe
 
 **NOTA: Si el servidor está detrás de un router, deberás redirigir el puerto 5000 en la configuración de tu router hacia la IP local del servidor, o usar herramientas como ngrok para exponer el puerto.**
 
-## Para desarrolladores (ejecutar desde el código fuente)
+**Para desarrolladores (ejecutar desde el código fuente)**
 Si quieres ejecutar el juego desde el código .py o contribuir al proyecto:
 
 **1. Clona el repositorio:**
@@ -79,9 +79,9 @@ Si las creas tú mismo, deben tener estos nombres (tamaño recomendado: 300×300
 ## ¿Cómo jugar?
 **Paso 1: Elige un rol en el menú principal:**
 
-* Servidor: inicia el juego y espera la conexión de un cliente. Se te pedirá la IP que tengas asignada (por defecto 0.0.0.0 para que el servidor acepte todas las conexiones que hay en LAN).
+* Servidor (Jugador 1): inicia el juego y espera la conexión de un cliente. Se te pedirá la IP que tengas asignada (por defecto 0.0.0.0 para que el servidor acepte todas las conexiones que hay en LAN).
 
-* Cliente: conéctate al servidor ingresando su IP (local o pública).
+* Cliente (Jugador 2): conéctate al servidor ingresando su IP (local o pública).
 
 **Paso 2: Una vez conectados, verás la pantalla de juego con tu área a la izquierda y la del oponente a la derecha.**
 
